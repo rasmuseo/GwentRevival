@@ -28,6 +28,6 @@ public class PlayerTester
         playerboard.Board[0, 3] = new Card("Dwarf", 3);
 
         // Assert
-        Assert.AreEqual(3, playerboard.CalculateScore());
+        Assert.AreEqual(3, playerboard.CalculateArmyStrength());
     }
 }

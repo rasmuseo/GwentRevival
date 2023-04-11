@@ -1,4 +1,5 @@
 ﻿using Api.Extensions;
+using Api.Model.States;
 
 namespace Api.Model;
 
@@ -13,9 +14,16 @@ public class Player
     public Card[]? Hand { get; set; }
     public Card[,] Board { get; set; }
 
-    public int CalculateScore()
+    public int CalculateArmyStrength()
     {
         return Board.ToEnumerable<Card>()
-            .Sum(x => x.VictoryPoints);
+            .Sum(x => x.Strength);
+    }
+
+    public void PlayCard(Card card, int row, int column)
+    {
+        Board[row, column] = card;
+        card.Row = row;
+        card.Column = column;
     }
 }

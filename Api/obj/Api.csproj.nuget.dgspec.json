@@ -1,27 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rasmu\\source\\repos\\GwentRevival\\Api\\Api.csproj": {}
+    "C:\\Projects - Private\\GwentRevival\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rasmu\\source\\repos\\GwentRevival\\Api\\Api.csproj": {
+    "C:\\Projects - Private\\GwentRevival\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rasmu\\source\\repos\\GwentRevival\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Projects - Private\\GwentRevival\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\Rasmu\\source\\repos\\GwentRevival\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\Rasmu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rasmu\\source\\repos\\GwentRevival\\Api\\obj\\",
+        "projectPath": "C:\\Projects - Private\\GwentRevival\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\rea\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects - Private\\GwentRevival\\Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rasmu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rea\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +47,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
